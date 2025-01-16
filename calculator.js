@@ -4,6 +4,9 @@ class calculator {
 	}
 
 	subtract(x, y) {
+		const subtract=(a,b) => a-b;
+		const result = subtract(1,2);
+		console.log(result);
 		// TODO: implement subtract method
 	}
 
