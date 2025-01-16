@@ -1,6 +1,9 @@
 class calculator {
 	add(x, y) {
 		// TODO: implement add method
+		const add = (x,y) => a + b ;
+		const result = add(1,2) ;
+		console.log(result); 
 	}
 
 	subtract(x, y) {
