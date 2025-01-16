@@ -7,15 +7,12 @@ class calculator {
 	}
 
 	subtract(x, y) {
-		const subtract=(x,y) => x-y;
-		const result = subtract(1,2);
-		console.log(result);
 		// TODO: implement subtract method
+		return x - y;
 	}
 
 	multiply(x, y) {
 		return x * y;
-
 	}
 
 	divide(x, y) {
@@ -24,4 +21,7 @@ class calculator {
 }
 const calc = new calculator();
 const result = calc.multiply(5, 3); 
+const result2 = calc.subtract(5, 3); 
 console.log(result);
+console.log(result2);
+
