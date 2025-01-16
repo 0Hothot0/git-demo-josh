@@ -8,10 +8,14 @@ class calculator {
 	}
 
 	multiply(x, y) {
-		// TODO: implement multiply method
+		return x * y;
+
 	}
 
 	divide(x, y) {
 		//TODO: implement divide method
 	}
 }
+const calc = new calculator();
+const result = calc.multiply(5, 3); 
+console.log(result);
